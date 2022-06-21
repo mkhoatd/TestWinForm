@@ -11,6 +11,6 @@ namespace TestWinForm.Models
     {
         public int Id { get; set; }
         public string TenMonAn { get; set; }
-
+        public virtual ICollection<NguyenLieu> NguyenLieus { get; set; }
     }
 }

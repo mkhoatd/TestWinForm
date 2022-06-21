@@ -68,6 +68,10 @@
     <Compile Include="Migrations\202206211435592_Initial.designer.cs">
       <DependentUpon>202206211435592_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202206211500378_add-navigation-property.cs" />
+    <Compile Include="Migrations\202206211500378_add-navigation-property.designer.cs">
+      <DependentUpon>202206211500378_add-navigation-property.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\FoodsDbContext.cs" />
     <Compile Include="Models\MonAn.cs" />
@@ -77,6 +81,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Migrations\202206211435592_Initial.resx">
       <DependentUpon>202206211435592_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202206211500378_add-navigation-property.resx">
+      <DependentUpon>202206211500378_add-navigation-property.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
